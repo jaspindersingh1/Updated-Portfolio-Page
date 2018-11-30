@@ -1,0 +1,117 @@
+/* styling the about page */
+
+body{
+    margin: 0 auto;
+}
+
+/* header{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    background: white;
+    color: #4aaaa5;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+} */
+
+h1{
+    margin: 0;
+    display: inline;
+    color: white;
+    margin: auto;
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.nav{
+    /* float: right; */
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: #333;   
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+}
+
+.background_img{
+    background-image: url("../images/tiny-squares.png");
+    background-size: cover;
+}
+
+.main_content{
+    background-color: white;
+    width: 960px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+#my_pic{
+    transform: rotate(90deg);
+}
+
+.about_me {
+    color: #4aaaa5;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+
+.hline1 {
+    width: auto;
+    height: 2px;
+    background-color: #777777;
+    margin: 20px;
+}
+
+#my_pic{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+
+p {
+    font-size: 16px;
+    margin: 20px;
+}
+
+.p1 {
+    padding: 20px;
+}
+
+.p2 {
+    clear: both;
+}
+
+
+.footer {
+    clear: both;
+    width: auto;
+    height: 70px;
+    background-color: #777777;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    border-top: #4aaaa5 solid 10px;
+}
+
+
